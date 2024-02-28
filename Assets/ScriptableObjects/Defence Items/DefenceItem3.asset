@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57f70a9f531864e22a5f1173b8c30a31, type: 3}
+  m_Name: DefenceItem3
+  m_EditorClassIdentifier: 
+  <Damage>k__BackingField: 10
+  <RangeInBlocks>k__BackingField: 1
+  <AttackingTimeInterval>k__BackingField: 5
+  <Health>k__BackingField: 20
+  <AttackType>k__BackingField: 2
+  <ItemName>k__BackingField: Item 3
+  <DefenceItemPrefab>k__BackingField: {fileID: 6212168214028782711, guid: d2fdeec50827a4113ae3daa51caf32f2, type: 3}
+  <DefenceItemSprite>k__BackingField: {fileID: 21300000, guid: b0fc7038560254bbda782b0a13638b66, type: 3}
+  <DefenceItemBullet>k__BackingField: {fileID: 7307379530018007753, guid: b0af63b0307cf46b884c8dd1c31bf0ee, type: 3}

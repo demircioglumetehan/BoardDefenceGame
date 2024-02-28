@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24b8d890465174f8da8d080860a8486c, type: 3}
+  m_Name: Level3
+  m_EditorClassIdentifier: 
+  <BoardDimensions>k__BackingField: {x: 4, y: 8}
+  <LevelNumber>k__BackingField: 3
+  <PlayerBaseHealth>k__BackingField: 3
+  <EnemyWaves>k__BackingField:
+  - TimeToSpawnInitialEnemy: 1
+    TimeBetweenSpawningEnemies: 0.484
+    <SpawningEnemyAmount>k__BackingField: 7
+    <spawningEnemyFeature>k__BackingField: {fileID: 11400000, guid: 5413074857900433e88c3ce547b9ac59, type: 2}
+  - TimeToSpawnInitialEnemy: 1
+    TimeBetweenSpawningEnemies: 0.852
+    <SpawningEnemyAmount>k__BackingField: 3
+    <spawningEnemyFeature>k__BackingField: {fileID: 11400000, guid: 1a5d92fd5260741339e672b6d5856f35, type: 2}
+  - TimeToSpawnInitialEnemy: 1
+    TimeBetweenSpawningEnemies: 0.597
+    <SpawningEnemyAmount>k__BackingField: 5
+    <spawningEnemyFeature>k__BackingField: {fileID: 11400000, guid: 8dc50d191dae44a729cff1a487c01ebf, type: 2}
+  <DefenceItems>k__BackingField:
+  - <TotalSpawnableDefenceItemAmount>k__BackingField: 5
+    <SpawnableDefenceItemFeature>k__BackingField: {fileID: 11400000, guid: 80953ad2627cb4d15895b5953849c1f6, type: 2}
+  - <TotalSpawnableDefenceItemAmount>k__BackingField: 7
+    <SpawnableDefenceItemFeature>k__BackingField: {fileID: 11400000, guid: b0d3fe519f6fb46559524c8323c99675, type: 2}
+  - <TotalSpawnableDefenceItemAmount>k__BackingField: 5
+    <SpawnableDefenceItemFeature>k__BackingField: {fileID: 11400000, guid: 2c4f1080553884bf295c03030f9cf01b, type: 2}
